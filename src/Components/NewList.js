@@ -1,7 +1,7 @@
 import React from 'react';
 
 const NewsList = ({ articles }) => {
-
+    
     return (
     <div className="news-list">
         {articles.map((article, index) => (
@@ -10,12 +10,12 @@ const NewsList = ({ articles }) => {
                 <p>
                     <a href={article.webUrl} target="_blank" rel="noopener noreferrer">
                         Читать статью
-                        </a>
-                        </p>
-                        </div>
-                    ))}
-                    </div>
-                    );
+                    </a>
+                </p>
+            </div>
+        ))}
+    </div>
+);
 };
 
 

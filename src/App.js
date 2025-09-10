@@ -8,7 +8,7 @@ import NewsList from './Components/NewList';
 
 import './App.css';
 
-const API_KEY = 'YOUR_API_KEY';
+const API_KEY = '2b2e26bf-7a86-4016-990b-d64649bb4433';
 
 function App() {
   const [articles, setArticles] = useState([]);
